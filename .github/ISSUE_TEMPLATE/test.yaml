@@ -2,15 +2,29 @@ name: General issue
 description: File a general accessibility issue
 body:
   - type: textarea
-    id: repro
+    id: issue
     attributes:
-      label: Reproduction steps
-      description: "How do you trigger this bug? Please walk us through it step by step."
-      value: |
-        1.
-        2.
-        3.
-        ...
-      render: bash
+      label: Issue
+      description: "Describe access issue"
     validations:
       required: true
+  - type: input
+    id: url
+    attributes:
+      label: Page url
+      description: "Page URL that was tested"
+      placeholder: "https://gov.uk"
+    validations:
+      required: true
+  - type: input
+    id: element-path
+    attributes:
+      label: Element path
+      description: "Path to element on page"
+      placeholder: ".input:first-child"
+  - type: textarea
+    id: html-snippet
+    attributes:
+      label: HTML Snippet
+      description: "HTML code that shows the issue"
+      render: html
