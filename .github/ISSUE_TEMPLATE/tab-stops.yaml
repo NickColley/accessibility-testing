@@ -28,8 +28,8 @@ body:
       label: Keyboard navigation
       description: All interactive elements can be reached using the Tab and arrow keys.
       options:
-        - Pass
-        - Fail
+        - label: Pass
+        - label: Fail
     validations:
       required: true
   - type: checkboxes
@@ -37,8 +37,8 @@ body:
       label: Keyboard traps
       description: There are no interactive elements that “trap” input focus and prevent navigating away.
       options:
-        - Pass
-        - Fail
+        - label: Pass
+        - label: Fail
     validations:
       required: true
   - type: checkboxes
@@ -46,8 +46,8 @@ body:
       label: Focus indicator
       description: All interactive elements give a visible indication when they have input focus. 
       options:
-        - Pass
-        - Fail
+        - label: Pass
+        - label: Fail
     validations:
       required: true
   - type: checkboxes
@@ -55,8 +55,8 @@ body:
       label: Tab order
       description: The tab order is consistent with the logical order that's communicated visually.
       options:
-        - Pass
-        - Fail
+        - label: Pass
+        - label: Fail
     validations:
       required: true
   - type: checkboxes
@@ -64,7 +64,7 @@ body:
       label: Input focus
       description: Input focus does not move unexpectedly without the user initiating it. 
       options:
-        - Pass
-        - Fail
+        - label: Pass
+        - label: Fail
     validations:
       required: true
