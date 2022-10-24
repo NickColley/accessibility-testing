@@ -1,4 +1,5 @@
 name: Keyboard checks
+description: Keyboard related checks
 body:
   - type: markdown
     attributes:
