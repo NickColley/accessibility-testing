@@ -1,5 +1,7 @@
 name: Keyboard checks
 description: Keyboard related checks
+title: "[Keyboard]: "
+labels: ["keyboard"]
 body:
   - type: markdown
     attributes:
