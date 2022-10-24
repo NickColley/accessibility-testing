@@ -23,7 +23,7 @@ body:
           - Review any auto-discovered failures to be sure they are valid.
 
         </details>
-  - type: checkboxes
+  - type: dropdown
     attributes:
       label: Keyboard navigation
       description: All interactive elements can be reached using the Tab and arrow keys.
@@ -32,7 +32,7 @@ body:
         - label: Fail
     validations:
       required: true
-  - type: checkboxes
+  - type: dropdown
     attributes:
       label: Keyboard traps
       description: There are no interactive elements that “trap” input focus and prevent navigating away.
@@ -41,7 +41,7 @@ body:
         - label: Fail
     validations:
       required: true
-  - type: checkboxes
+  - type: dropdown
     attributes:
       label: Focus indicator
       description: All interactive elements give a visible indication when they have input focus. 
@@ -50,7 +50,7 @@ body:
         - label: Fail
     validations:
       required: true
-  - type: checkboxes
+  - type: dropdown
     attributes:
       label: Tab order
       description: The tab order is consistent with the logical order that's communicated visually.
@@ -59,7 +59,7 @@ body:
         - label: Fail
     validations:
       required: true
-  - type: checkboxes
+  - type: dropdown
     attributes:
       label: Input focus
       description: Input focus does not move unexpectedly without the user initiating it. 
