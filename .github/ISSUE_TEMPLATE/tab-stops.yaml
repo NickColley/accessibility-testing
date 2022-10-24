@@ -1,10 +1,9 @@
-name: Tab stops
-description: Test 
+name: Keyboard checks
 body:
   - type: markdown
     attributes:
-      value: |
-        # Test heading
+      value: |        
+        > Note: this test requires you to use a keyboard and to visually identify interactive elements.
 
         <details>
         <summary>
