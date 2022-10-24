@@ -52,6 +52,11 @@ body:
         - Fail
     validations:
       required: true
+      body:
+  - type: textarea
+    attributes:
+      label: Focus indicator screenshot
+      description: "Drag a screenshot of the problem here"
   - type: dropdown
     attributes:
       label: Tab order
