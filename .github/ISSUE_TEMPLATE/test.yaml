@@ -32,3 +32,11 @@ body:
       label: HTML Snippet
       description: "HTML code that shows the issue"
       render: html
+  - type: dropdown
+    id: browser
+    attributes:
+      label: Browser
+      options:
+        - Chrome
+        - Firefox
+        - Safari
