@@ -5,10 +5,14 @@ body:
     attributes:
       value: |
         # Test heading
+
         <details>
         <summary>
+
         ## How to test
+
         </summary>
+
         The visual helper for this requirement highlights the elements in the target page that receive the input focus.
         1. Use your keyboard to move input focus through all the interactive elements in the page:
           a. Use Tab and Shift+Tab to navigate between standalone controls.
@@ -17,6 +21,7 @@ body:
           a. If you find any failures, select Fail, then add them as failure instances.
           b. Select Pass if all instances meet the requirement.
           c. Review any auto-discovered failures to be sure they are valid.
+
         </details>
   - type: dropdown
     attributes:
