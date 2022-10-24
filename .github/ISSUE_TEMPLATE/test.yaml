@@ -1,6 +1,10 @@
 name: General issue
 description: File a general accessibility issue
 body:
+  - type: markdown
+    attributes:
+      value: |
+        "# Test heading"
   - type: textarea
     id: issue
     attributes:
