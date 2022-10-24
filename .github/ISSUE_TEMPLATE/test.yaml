@@ -4,7 +4,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        "# Test heading"
+        # Test heading
   - type: textarea
     id: issue
     attributes:
